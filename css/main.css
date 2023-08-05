@@ -36,6 +36,7 @@ html {
     background: #336ea2;
     border-radius: 15px;
 }
+
 /* Home Section */
 #home {
     display: flex;
@@ -45,32 +46,100 @@ html {
     padding: 2rem;
     border-bottom: 1px solid #336ea2;
 }
+
 #home img {
     max-width: 25%;
-    height: auto ;
+    height: auto;
     border-radius: 100%
 }
-#home .name h2{
-   margin-bottom: 0.75rem; 
+
+#home .name h2 {
+    margin-bottom: 0.75rem;
 }
-#home .name p{
-    opacity: 0.7 ;
+
+#home .name p {
+    opacity: 0.7;
     font-style: italic;
+    /* Training Section */
 }
-#training{
+
+#training {
     color: white;
     padding: 1rem;
 }
-#training .items{
+
+#training .items {
     display: flex;
     justify-content: space-between;
 }
-#training .items .item{
+
+#training .items .item {
     width: 33%;
     text-align: center;
     padding: 0.5rem;
 }
-#training .items .item:hover{
+
+#training .items .item:hover {
     color: red;
+    opacity: 0.6;
+}
+
+/* Courses Section */
+#courses {
+    color: #333;
+    padding: 1rem;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.courses .course {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.courses .course .course-image {
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.courses .course .course-image img {
+    border-radius: 15px;
+}
+
+.courses .course .course-image span {
+    background: red;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.courses .course .course-info .title {
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.courses .course .course-info .description {
+    letter-spacing: 1px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+.courses .course .course-info .instructor {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+.courses .course .course-info .rating {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
     opacity: 0.6;
 }
