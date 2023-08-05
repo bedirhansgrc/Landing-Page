@@ -143,3 +143,29 @@ html {
     margin-bottom: 0.25rem;
     opacity: 0.6;
 }
+/* Contact Section */
+#contact{
+    color: white;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    
+    align-self: center;
+}
+#contact ul a{
+    padding: 1rem ;
+    font-size: 3rem;
+}
+#contact ul a:hover{
+    opacity: 0.75;
+}
